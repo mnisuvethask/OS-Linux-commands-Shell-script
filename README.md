@@ -30,6 +30,8 @@ s.n. dasgupta
 sumit chakrobarty
 ^d
 ```
+## Output:
+![Alt text](image/img30.png)
 cat > file2
 ```
 anil aggarwal
