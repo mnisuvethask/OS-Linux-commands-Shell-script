@@ -974,11 +974,11 @@ echo "The for loop is completed“
 ```
 
  
-$ chmod 755 forcontinue.sh
+$ chmod 755 forbreak.sh
  
-$ ./forcontinue.sh 
+$ ./forbreak.sh 
 ## OUTPUT
- 
+ ![Alt text](image/979.png)
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -993,7 +993,7 @@ $ chmod 755 exread.sh
 $ ./exread.sh 
 ## OUTPUT
 
-
+![Alt text](image/995.png)
  cat exread1.sh
 ```bash
 #!/bin/bash
@@ -1002,12 +1002,12 @@ read -p "Enter your name: " name
 echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
-
+$ ./exread1.sh
 ## OUTPUT
+![Alt text](image/1005.png)
 
 
 
-$ ./exread1.sh 
  
 cat funcex.sh
 ```bash
@@ -1024,11 +1024,13 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
+$ chmod 755 forcex.sh
+$ ./forcex.sh
 ## OUTPUT
- ./funcex.sh 
+![Alt text](image/1028.png)
 
  
- ./funcex.sh 1 2
+
 
  
 cat argshift.sh
@@ -1040,9 +1042,9 @@ cat argshift.sh
 done
 ```
 $ chmod 777 argshift.sh
-
-## OUTPUT
 $ ./argshift.sh 1 2 3
+## OUTPUT
+![Alt text](image/1046.png)
  
  cat argshift1.sh
 ```bash
@@ -1058,8 +1060,9 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
 $ ./argshift.sh 1 2 3
+## OUTPUT
+![Alt text](image/1065.png)
  
 cat argshift.sh
 ```bash
@@ -1071,9 +1074,11 @@ while (( "$#" )); do
 done
 set +x
 ```
+$ chmod 777 argshift.sh
+$ ./argshift.sh
 ## OUTPUT
- ./argshift.sh 1 2 3
  
+ ![Alt text](image/1080.png)
  
 cat > nc.awk
 ```bash
@@ -1089,6 +1094,8 @@ print "Number of Lines are",NR
 print "No of Words count:",wordcount
 }
  ```
+ ## Output:
+ ![Alt text](image/1096.png)
 cat>data.dat
 ```bash
 bcdfghj
@@ -1104,7 +1111,7 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![Alt text](image/1112.png)
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1132,6 +1139,6 @@ fi
 ```
 ## OUTPUT 
 
-
+![Alt text](image/last.png)
 # RESULT:
 The Commands are executed successfully.
